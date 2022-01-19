@@ -1,0 +1,319 @@
+/*###### Styling HTML tags Starts #####*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #E4F3BC;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000000;
+}
+
+p,ul,ol
+{
+    margin: 0px;
+    margin-top: 1.5em;
+    padding: 0px;
+    line-height: 23px;
+}
+    
+h1, h2, h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 17px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+a{
+    color:#9CC54F;
+    text-decoration: none;
+    border: none;
+}
+/*###### HTML Tags ENDS ####*/
+
+/*###### HTML Wrapper STARTS ####*/
+/*IE hack to position divHEader in the center of the screen*/
+
+#divWrapper
+{
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*######  Wrapper ENDS ####*/
+/*######  Header Section Starts ####*/
+
+#divHeaderParent
+{
+    width: 100%;
+    height: auto;
+    background-color: #68841D;
+}
+
+#divHeader
+{
+    width: 960px;
+    height: 177px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #ffffff;
+    background-color: #87Ae26;
+}
+
+#divLogoCatchParent
+{
+    float:left;
+    width:340px;
+    height:auto;
+    margin: 40px 0px 0px 50px;
+    background: url(../logo.png) no-repeat top left;
+
+}
+
+#divLogo h1 a
+{
+    margin: 0px 0px 0px 70px;
+    color: #FFFFFF;
+    display:block;
+}
+
+#divlogo p{
+    margin: 0px 0px 0px 70px;
+}
+
+#divHeadTextParent
+{
+    float:left;
+    width: 215px;
+    margin-top:72px;
+    margin-left:65px;
+}
+#divHeadTextParent p{
+    margin:0px;
+    padding:0px;
+
+}
+
+#divHeadContactParent
+{
+    float:right;
+    width: 225px;
+    height:125px;
+    margin-top:30px;
+    margin-left:30px;
+    
+}
+
+#divContact
+{
+    float:right;
+    width: 215px;
+    height:35px;
+    margin: 35px 8px 0px 0px;
+
+}
+
+#divContact img{
+    float:left;
+}
+#divContact p{
+    float:left;
+    margin-top:0px;
+    margin-left:10px;
+}
+/*Header Section ENDS*/
+/*Top Section Starts*/
+
+#divTopMenuParent{
+    width:960px;
+    height:auto;
+    margin:0 auto;
+}
+
+#divTopMenu
+{
+    float:left;
+    width:97%;
+    height:auto;
+    margin:0 px;
+
+}
+
+#divTopMenu ul{
+    margin-top:0px !important;
+}
+
+#divTopMenu ul li{
+    float:left;
+    margin-left:20px;
+    list-style:none;
+    background-color: #68841D;
+    color: #fff;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+/*Top Menu Section ENDS*/
+
+/*Content Section STARTS*/
+
+#divContentParent
+{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+#divContent
+{
+    float:right;
+    width: 650px;
+    height: auto;
+    margin: 10px 0px 10px 30px;
+   
+
+}
+
+#divContentHead
+{
+    height:40px;
+    border-bottom: 1px solid #A2C353;
+}
+#divContentHead p{
+    float:left;
+    margin-top:0px;
+    margin-bottom:8px;
+    font-size: 18pt;
+    color:#000000;
+   
+
+}
+#divContentHead span {
+    float:left;
+    margin-top:-2px;
+    margin-bottom:8px;
+    font-size: 18pt;
+    color:#A2C353;
+}
+#divLeftMenu
+{
+    float:left;
+    width: 270px;
+    height: auto;
+    margin: 10px 0px 10px 4px;
+    background-color: transparent;
+
+}
+
+#divLeftMenu ul li{
+    float:Left;
+    width:75%;
+    margin-left:30px;
+    color:#A2C353;
+    background-image: image:url(../images/arrow_menu.png);
+    background-repeat:no-repeat;
+    border-bottom:1px solid #E1E1E1;
+    list-style:none;
+    background-position: 100% 50%;
+}
+/*Content Section ENDS*/
+
+/*Footer Section STARTS*/
+
+#divFooterWrapper
+{
+    widows: 100%;
+    height:auto;
+    background-color: #68841D;
+}
+
+#dixFooterParent
+{
+    width:960px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+#divFooterCopyCredits{
+    float:right;
+    width:50%;
+    height:auto;
+    margin: 25px 4px 10px 30px;
+    background-color: transparent;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+#divFooterLinksParent
+{
+    float:left;
+    width:30%;
+    height:auto;
+    margin: 25px 30px 10px 0px;
+    background-color: transparent;
+    color:#87AE26;
+}
+
+#divFooterLinks
+{
+    float:left;
+    width:100%;
+    height:auto;
+    margin: 11px 0px 4px 15px;
+    background-color: transparent;
+    font-size:9pt;
+
+}
+
+#divFooterLinks a {
+    color:#87AE26;
+    text-decoration: underline;
+
+}
+
+/*Footer Section ENDS*/
+/*Common Classes STARTS*/
+
+.divClr{
+    clear:both;
+}
+/*Common Classes ENDS*/
+/*Implementing CSS3 Styling For Top Menu - STARTS*/
+
+a.cssTransitions{
+    padding:0px 40px;
+    text-decoration: none;
+    background: #68841D;
+    color: #fff;
+    -webkit-tansition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a.cssTransitions:hover,
+a.cssTransitions:focus{
+    padding:0px 40px;
+    color: #fff;
+    background: #9c3;
+
+}
+
+/*Implementing CSS3 Styling For top Menu - ENDS*/
+
+

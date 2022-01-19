@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>The title</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        </script>
+        <script type="text/javascript" language="javascript">
+            $(document).ready(function()
+            {
+                $("img").load(function()
+                {
+                    alert("Image loaded!");
+                });
+            });
+        </script>
+    </head>
+   <body>
+     <img src="desert.jpg" alt="good morning">
+     <p><b>Note:</b>On some browesers, the load event did not trigger if the image is cached.</p>
+
+   </body>
+</html>

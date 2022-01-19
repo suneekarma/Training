@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>The title</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+        </script>
+        <script>
+            $(document).ready(function()
+            {
+                $("p").mouseover(function(){
+
+                $("p").css("background-color", "lightgreen");
+            });
+            $("p").mouseout(function(){
+                $("p").css("background-color", "orange");
+            });
+        });
+                
+        </script>
+    </head>
+   <body>
+     
+     <p>move your cursor over the paragrapg.</p>
+
+   </body>
+</html>

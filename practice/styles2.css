@@ -1,0 +1,137 @@
+body{
+    font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    color:#222;
+    background-color: #CCC;
+}
+
+a img{
+    border:none;
+}
+/*links*/
+a:link, a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color:#1e638d;
+    outline:none;
+}
+
+a:hover{
+    color:#39c;
+}
+
+divRegister{
+    float: left;
+    width: auto;
+    height:auto;
+    margin:15px 15px;
+    padding:20px;
+    border:2px solid #000000;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius:6px;
+    border-top-left-radius: 6px 6px;
+    border-bottom-right-radius: 6px 6px;
+    border-bottom-left-radius: 6px 6px;
+
+
+}
+#divRegister p{
+    line-height: 1.5;
+}
+
+#divRegister h3{
+    margin: 0 0 10px 10 px;
+    background-color: #0033CC;
+    background: url(../dessert.png) left top no-repeat;
+    font-size:24pt;
+    font-weight:bold;
+    text-transform: uppercase;
+    line-height:1;
+    text-shadow: 0 1px 0px #990000;
+    color:#333333;
+}
+
+#divRegister h3.alerts{
+    padding: 3px 0 3px 36px;
+}
+
+#registerAlerts fieldset{
+    margin: 0 0 10px 0;
+    border: none;
+}
+
+#registerAlerts label{
+    display: block;
+    font-weight: bold;
+    line-height: 1.4;
+    color:#666;
+    color:rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 1px #fff;
+}
+#registerAlerts fieldset:last-child{
+    margin:0;
+}
+
+#registerAlerts fieldset input[type="text"]{
+    width:215px;
+    padding: 5px 8px;
+    font-size:1.2rem;
+    color:#666;
+    border:none;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 12%, from(#999), to (#fff));
+    background-image: -moz-linear-gradient(0% 12% 90deg, #fff, #999);
+    background-color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+    border-radius:4px;
+}
+
+#registerAlerts input[type="submit"]{
+    padding:8px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    line-height:1;
+    color:#444;
+    border:none;
+    text-shadow:0 1px 1px rgba(255, 255, 255, 0.85);
+    background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#fff) to (#bbb));
+    background-image: -moz-linear-gradient(0% 100% 90deg, #bbb, #fff);
+    background-color: #fff;
+    -webkit-border-radius: 23px;
+    -moz-border-radius:23px;
+    -o-border-radius:23px;
+    border-radius:23px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow:0 1px rgba(0, 0, 0, 0.5);
+
+}
+
+@-webkit-keyframes pulse{
+    0%{
+        -webkit-box-shadow: 0 0px 12px rgba(255, 51, 0, 0.2);
+        
+    }
+    50%{
+        -webkit-box-shadow: 0 0px 1px rgba(255, 51, 0, 0.9);
+
+    }
+    100%{
+        -webkit-box-shadow: 0 0px 12px rgba(255, 51, 0, 0.2);
+
+    }
+}
+
+#registerAlerts input[type="text"]:focus{
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+#registerAlerts input[type="submit"]:hover,
+#registerAlerts input[type="submit"]:focus{
+    -webkit-animation:pulse 2s infinite ease-in-out;
+    cursor: pointer;
+}

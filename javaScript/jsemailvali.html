@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>simple email validation example</title>
+    <script type="text/javascript">
+        function IsValidEmail(email) {
+            var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            return expr.test(email);
+        };
+        function ValidateEmails() {
+            var message = ""
+            var inputs = document.getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type == "text" && inputs[i].className.indexOf("email") != -1) {
+                    var email = inputs[i].value;
+                    if (IsValidEmail(email)) {
+                        message += email + " - Valid Email.\n"
+                    } else {
+                        message += email + " - Invalid Email.\n"
+                    }
+                }
+            }
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+    <form id="form1">
+    Email1: <input type="text" id="txtEmail1" class = "email" /><br />
+    Email2: <input type="text" id="txtEmail2" class = "email" /><br />
+    Email3: <input type="text" id="txtEmail3" class = "email" /><br />
+    <br />
+    <input type="button" id="btnValidate" value="Validate Email" onclick="ValidateEmails()" />
+    </form>
+</body>
+</html>
+ 

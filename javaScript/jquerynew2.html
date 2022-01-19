@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>The title</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        </script>
+        </head>
+
+        <body>
+            <h2>This is an example of using the jQuery dblclick() method.</h2>
+            <p>Double click the below text to see the effect.</p>
+            <p id = "p1">Click me</p>
+
+        </body>
+        <script>
+            $(document).ready(function()
+            {
+                $("#p1").dblclick(function()
+                {
+                    alert("You have clicked a paragraph element twice.");
+                });
+            });
+        </script>
+    
+
+</html>

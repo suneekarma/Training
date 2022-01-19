@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JavaScript Example</title>
+        <script type="text/javascript" language="javascript">
+            function findPercentage(totalMarks)
+            {
+                if (totalMarks<=300)
+                document.write("Percentage="+(totalMarks/3)+"%<br/>");
+            }
+        </script>
+    </head>
+    <body bgcolor="pink">
+        <center>
+            <form id="myform">
+                Enter Total Marks: <input type="text" id="TotalMarks" 
+                value="TotalMarks"/><br/><br/>
+                <input type="button" id="Persentage" value="Percentage"
+                onclick="findPercentage(TotalMarks.value)"/>
+            </form>
+        </center>
+    </body>
+</html>
